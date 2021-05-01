@@ -15,6 +15,7 @@ const Navbar = () => {
             </div>
             <ul className={menuClick ? 'active menu' : 'navigation menu'}>
                 <li className="menu-item"><a href="#home" className="menu-link">Home</a></li>
+                <li className="menu-item"><a href="#skills" className="menu-link">Skills</a></li>
                 <li className="menu-item"><a href="#" className="menu-link">Project</a></li>
                 <li className="menu-item"><a href="#" className="menu-link">Blog</a></li>
                 <li className="menu-item"><a href="#" className="menu-link">CV</a></li>

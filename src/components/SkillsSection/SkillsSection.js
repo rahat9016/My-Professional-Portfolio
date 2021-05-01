@@ -4,7 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import './skillsSection.css'
 const SkillsSection = () => {
     return (
-        <div className="skills-container" id="">
+        <div className="skills-container" id="skills">
             <div className="skills-wrapper">
                 <div className="about-container">
                     <BackgroundAnimation/>
@@ -14,7 +14,7 @@ const SkillsSection = () => {
                         <p className="about-paragrap">Clear communicator with interpersonal skills. Seeking to apply strong knowledge of JavaScript Programming to ensure accurate and high-quality statistical output as a Programmer for your Company. </p>
                     </div>
                 </div>
-                <div>
+                <div className="about-container">
                     <h1 className="about-me">Skills</h1>
                     
                     <div className="bar">

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Share/Navbar/Navbar';
 import AboutSection from '../AboutSection/AboutSection';
+import Projects from '../Projects/Projects';
 import SkillsSection from '../SkillsSection/SkillsSection';
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
             <Navbar/>
             <AboutSection/>
             <SkillsSection></SkillsSection>
-           
+           <Projects/>
         </div>
     );
 };
