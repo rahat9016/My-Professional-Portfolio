@@ -66,6 +66,7 @@
         width: 100%;
         left: -9999px;
         transition: all .3s ease;
+        z-index: 99999;
     }
     .menu-item{
         display: block;

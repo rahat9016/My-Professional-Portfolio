@@ -14,7 +14,7 @@ const Navbar = () => {
                 <i className={menuClick ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
             <ul className={menuClick ? 'active menu' : 'navigation menu'}>
-                <li className="menu-item"><a href="#" className="menu-link">Home</a></li>
+                <li className="menu-item"><a href="#home" className="menu-link">Home</a></li>
                 <li className="menu-item"><a href="#" className="menu-link">Project</a></li>
                 <li className="menu-item"><a href="#" className="menu-link">Blog</a></li>
                 <li className="menu-item"><a href="#" className="menu-link">CV</a></li>

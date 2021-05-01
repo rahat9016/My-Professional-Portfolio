@@ -7,6 +7,7 @@
 .container-left-side{
     color: #fff;
     text-align: center;
+    position: relative;
 }
 .container-left-side h1{
     font-size: 60px;
@@ -51,6 +52,45 @@
     left:-86%;
     top:10%
 }
+@keyframes social {
+    0%{
+        left:-180%;
+        top:90%
+    }100%{
+        left:-86%;
+        top:10%
+    }
+}
+
+.downloadBtn{
+    background-color: #fff;
+    text-decoration: none;
+    color:#3498db;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+.animation7{
+    position: absolute;
+    left: 10%;
+    bottom:-10%;
+    animation: animation7 2s ease-in-out infinite;
+}
+
+
+@keyframes animation7 {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(35px);
+    }
+}
+
 .reactImg{
     font-size: 85px;
     color: #61DAFB;
