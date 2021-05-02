@@ -10,7 +10,7 @@ const MyProjects =[
         name:'Computer Center',
         category:'react',
         img:computerCenter,
-        githubLink:`https://github.com/rahat9016/human-bazar`,
+        githubLink:`https://github.com/rahat9016/computer-center`,
         viewLink:`https://computercenterbyrahat.web.app/`,
         className:'computerCenter project',
         technology:'HTML, CSS, ReactJS, mongoDB, nodeJS, expressJS, Firebase, Heroku, Stripe'
@@ -63,7 +63,8 @@ const Projects = () => {
         setProject(updateProject)
     }
     return (
-        <div className="project-container">
+        <div className="project-container" id="project">
+            <h1 className="top-header">Project</h1>
             <div className="button-container">
                 <button className="projectBtn" onClick={()=> setProject(MyProjects)}>All</button>
                 <button className="projectBtn" onClick={()=> filterProject('javascript')}>JavaScript</button>

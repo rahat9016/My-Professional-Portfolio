@@ -47,7 +47,8 @@
     }
     
     .about-header{
-        font-size: 35px;
+        font-size: 20px !important;
+        text-align: center;
     }
     .about-wrapper{
         width: 100%;
@@ -64,5 +65,41 @@
         margin-top: 100px;
     }
     
+}
+@media only screen and (max-width: 768px) {
+    .skills-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-header{
+        font-size: 35px;
+    }
+    .about-wrapper{
+        width: 100%;
+        top:0;
+        padding: 0px 0px;
+    }
+    #tsparticles{
+        height: 35vh;
+    }
+    .about-me{
+        text-align: center;
+    }
+    .about-container{
+        margin-top: 100px;
+    }
+   
+}
+  
+@media only screen and (max-width: 992px) {
+    
+    .about-header{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    
+    .about-header{
+        font-size: 45px;
+    }
 }
   

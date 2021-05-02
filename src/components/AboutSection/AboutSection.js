@@ -15,16 +15,48 @@ const AboutSection = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("I am a full stack web developer.")
+                .typeString("Web developer")
                 .callFunction(() => {
                   console.log("String typed out!");
                 })
-                .pauseFor(2500)
+                .deleteAll()
+                .pauseFor(500)
                 .callFunction(() => {
                   console.log("All strings were deleted");
                 })
                 .start();
-                
+                typewriter
+                .typeString("JavaScript developer")
+                .callFunction(() => {
+                  console.log("String typed out!");
+                })
+                .deleteAll()
+                .pauseFor(500)
+                .callFunction(() => {
+                  console.log("All strings were deleted");
+                })
+                .start();
+                typewriter
+                .typeString("React developer")
+                .callFunction(() => {
+                  console.log("String typed out!");
+                })
+                .deleteAll()
+                .pauseFor(500)
+                .callFunction(() => {
+                  console.log("All strings were deleted");
+                })
+                .start();
+                typewriter
+                .typeString("I know JavaScript, <br/> ReactJS, Typescript, nodeJS, expressJS")
+                .callFunction(() => {
+                  console.log("String typed out!");
+                })
+                .pauseFor(500)
+                .callFunction(() => {
+                  console.log("All strings were deleted");
+                })
+                .start();
             }}/>
           
         </div>
