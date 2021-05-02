@@ -22,7 +22,7 @@ const MyProjects =[
         githubLink:`https://github.com/rahat9016/computer-center`,
         viewLink:`https://myhumanproject9016.web.app/`,
         className:'humanBazar project',
-        technology:'HTML, CSS, ReactJS, mongoDB, nodeJS, expressJS, Firebase, Heroku,'
+        technology:'HTML, CSS, ReactJS, mongoDB, nodeJS, expressJS, Firebase, Heroku,',
     },
     
     {
@@ -32,7 +32,7 @@ const MyProjects =[
         githubLink:`https://github.com/rahat9016/Assingment-5`,
         viewLink:`https://rahat9016.github.io/Assingment-5/`,
         className:'cookingMaster project',
-        technology:'HTML, CSS, JavaScript, API'
+        technology:'HTML, CSS, JavaScript, API',
     },
     {
         name:'Bangladesh Book Store',
@@ -41,7 +41,7 @@ const MyProjects =[
         githubLink:`https://github.com/rahat9016/booklist`,
         viewLink:`https://rahat9016.github.io/booklist/`,
         className:'bookStore project',
-        technology:'HTML, CSS, JavaScript'
+        technology:'HTML, CSS, JavaScript',
     },
     {
         name:'panda',
@@ -50,7 +50,7 @@ const MyProjects =[
         githubLink:`https://github.com/rahat9016/boot`,
         viewLink:`https://rahat9016.github.io/boot/`,
         className:'panda project',
-        technology:'HTML, CSS, Bootstrap'
+        technology:'HTML, CSS, Bootstrap',
     },
 
 ]
@@ -64,6 +64,7 @@ const Projects = () => {
     }
     return (
         <div className="project-container" id="project">
+            <div className="main-container">
             <h1 className="top-header">Project</h1>
             <div className="button-container">
                 <button className="projectBtn" onClick={()=> setProject(MyProjects)}>All</button>
@@ -90,6 +91,7 @@ const Projects = () => {
                         )
                     })
                 }
+            </div>
             </div>
             
         </div>

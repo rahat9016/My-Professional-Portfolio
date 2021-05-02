@@ -1,5 +1,5 @@
 .project-container{
-    padding: 80px 40px;
+    padding: 80px 0px;
     background: rgb(128, 31, 255);
 }
 
@@ -132,16 +132,25 @@
         margin: 0 auto;
         justify-content: center;
     }
+    .project-container{
+        padding: 80px 20px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .project-wrapper{
         grid-template-columns: repeat(1,1fr);
+    }
+    .project-container{
+        padding: 80px 20px;
     }
     
 }
 @media only screen and (max-width: 992px) {
     .project-wrapper{
         grid-template-columns: repeat(2,1fr);
+    }
+    .project-container{
+        padding: 80px 20px;
     }
     
 }
